@@ -1,0 +1,14 @@
+.main-header{
+    margin: 0 auto;
+    max-width: 1728px;
+    padding: 96.66px 0 32.4px 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-logo{
+    display: flex;
+    width: 150px;
+    height: 45px;
+}

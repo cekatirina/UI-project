@@ -1,0 +1,23 @@
+
+  :root {
+    /* Типографика */
+    --font-family-poppins: 'Poppins', sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+  
+    --font-size-xs: 12px;
+    --font-size-s: 14px;
+    --font-size-m: 16px;
+    --font-size-l: 20px;
+    --font-size-xl: 48px;
+  
+    /* Цвета */
+    --primary-white: #FFF;
+    --primary-grey-darkest: #222831;
+    --primary-grey-dark: #393E46;
+    --primary-grey: #B7B7B7;
+    --primary-grey-light: #C1C1C1;
+    --primary-grey-lightest: #EAEAEA;
+    --primary-green: #016A70;
+    --secondary-grey-faded: rgba(0, 0, 0, 0.25);
+  }

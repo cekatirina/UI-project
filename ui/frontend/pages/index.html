@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Тег для корректного отображения интерфейса на безрамочных смартфонах -->
+    <!-- Подробнее: https://css-tricks.com/the-notch-and-css/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+    
+    <!-- Подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Подключаем стили -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    
+    <!-- Фавиконка и заголовок документа -->
+    <link rel="shortcut icon" href="../assets/favicon.ico" />
+    <title>Boang</title>
+  </head>
+  <body>
+    <div class="main-header">
+        <img class="header-logo" src="../assets/logo.png" />
+    </div>
+    <!-- Основной контент -->
+    <div class="main-login">
+        <img class="login-background-image" src="../assets/background.png" />
+        <div class="login-box">
+            <div class="login-header">
+                <h1>Log in</h1>
+            </div>
+            <form class="login-form">
+                <div class="login-email-label login-email-label__long">Email</div>
+                <div class="login-email-input login-email-input__long">
+                    <div class="login-email-input-text">Search your waste bank here!</div>
+                </div>
+                <div class="login-email-label login-email-label__long">Password</div>
+                <div class="login-email-input login-email-input__long">
+                    <div class="login-email-input-text">Search your waste bank here!</div>
+                </div>
+                <div class="login-forgot-password">
+                    <div class="login-forgot-password__content">
+                        <div class="login-forgot-password__remember">
+                            <div class="login-forgot-password__tickbox"></div>
+                            <div class="login-forgot-password__label login-forgot-password__label-short">Remember me</div>
+                        </div>
+                        <div class="login-forgot-password__label login-forgot-password__label-short">Forgot password?</div>
+                    </div>
+                </div>
+                <div class="login-button">Log in</div>
+                <div class="login-text">OR</div>
+                <div class="login-other-options">
+                    <div class="login-other-options__content">
+                        <div class="login-other-options__sn">
+                            <img class="login-other-options__pic" src="../assets/googlelogo.png" />
+                            <span>Log in with Google</span>
+                        </div>
+                        <div class="login-other-options__sn">
+                            <img class="login-other-options__pic" src="../assets/facebooklogo.png" />
+                            <span>Log in with Facebook</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-new-user login-new-user__login">
+                    <div class="login-new-user__content">
+                        <div class="login-new-user__text">New user?</div>
+                        <div class="login-new-user__reg">Registration</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
